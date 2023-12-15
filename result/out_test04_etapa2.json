@@ -1,0 +1,159 @@
+[ {
+  "command" : "addUser",
+  "timestamp" : 5,
+  "message" : "The username melodymaster has been added successfully.",
+  "user" : "melodymaster"
+}, {
+  "command" : "addUser",
+  "timestamp" : 10,
+  "message" : "The username rhythmrider has been added successfully.",
+  "user" : "rhythmrider"
+}, {
+  "command" : "addUser",
+  "timestamp" : 15,
+  "message" : "The username beatblazer has been added successfully.",
+  "user" : "beatblazer"
+}, {
+  "command" : "addUser",
+  "timestamp" : 20,
+  "message" : "The username harmonichero has been added successfully.",
+  "user" : "harmonichero"
+}, {
+  "command" : "addUser",
+  "timestamp" : 25,
+  "message" : "The username melodicmind42 has been added successfully.",
+  "user" : "melodicmind42"
+}, {
+  "command" : "addUser",
+  "timestamp" : 30,
+  "message" : "The username rhythmicrider58 has been added successfully.",
+  "user" : "rhythmicrider58"
+}, {
+  "command" : "addUser",
+  "timestamp" : 35,
+  "message" : "The username harmonyhunter73 has been added successfully.",
+  "user" : "harmonyhunter73"
+}, {
+  "command" : "addUser",
+  "timestamp" : 40,
+  "message" : "The username irene33 is already taken.",
+  "user" : "irene33"
+}, {
+  "command" : "getAllUsers",
+  "timestamp" : 45,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "melodicmind42", "rhythmicrider58", "harmonyhunter73", "melodymaster", "rhythmrider", "beatblazer", "harmonichero" ]
+}, {
+  "user" : "rhythmrider",
+  "command" : "addAlbum",
+  "timestamp" : 50,
+  "message" : "rhythmrider has added new album successfully."
+}, {
+  "user" : "beatblazer",
+  "command" : "addAlbum",
+  "timestamp" : 55,
+  "message" : "beatblazer has added new album successfully."
+}, {
+  "command" : "search",
+  "user" : "melodicmind42",
+  "timestamp" : 60,
+  "message" : "Search returned 3 results",
+  "results" : [ "Radio Ga Ga", "Rhythm Rise", "Rhythmic Revolution" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 65,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "select",
+  "user" : "melodicmind42",
+  "timestamp" : 70,
+  "message" : "Successfully selected Rhythmic Revolution."
+}, {
+  "command" : "load",
+  "user" : "melodicmind42",
+  "timestamp" : 75,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "melodicmind42",
+  "timestamp" : 90,
+  "stats" : {
+    "name" : "Rhythmic Revolution",
+    "remainedTime" : 185,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "melodicmind42",
+  "timestamp" : 120,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "printCurrentPage",
+  "timestamp" : 135,
+  "user" : "melodicmind42",
+  "message" : "Liked songs:\n\t[Rhythmic Revolution]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 150,
+  "user" : "beatblazer",
+  "message" : "beatblazer can't be deleted."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 190,
+  "message" : "Search returned 1 results",
+  "results" : [ "Beat Odyssey" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 280,
+  "message" : "Successfully selected Beat Odyssey."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 285,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 1158,
+  "user" : "beatblazer",
+  "message" : "beatblazer can't be deleted."
+}, {
+  "command" : "prev",
+  "user" : "alice22",
+  "timestamp" : 1159,
+  "message" : "Returned to previous track successfully. The current track is Melodic Motion."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 1380,
+  "user" : "beatblazer",
+  "message" : "beatblazer was successfully deleted."
+}, {
+  "command" : "search",
+  "user" : "melodicmind42",
+  "timestamp" : 1385,
+  "message" : "Search returned 1 results",
+  "results" : [ "Rapid Rhythms" ]
+}, {
+  "command" : "select",
+  "user" : "melodicmind42",
+  "timestamp" : 1390,
+  "message" : "Successfully selected Rapid Rhythms."
+}, {
+  "command" : "load",
+  "user" : "melodicmind42",
+  "timestamp" : 1440,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "melodicmind42",
+  "timestamp" : 1455,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "printCurrentPage",
+  "timestamp" : 1480,
+  "user" : "melodicmind42",
+  "message" : "Liked songs:\n\t[Rapid Rhythms]\n\nFollowed playlists:\n\t[]"
+} ]
